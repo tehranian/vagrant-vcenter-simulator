@@ -1,0 +1,30 @@
+{
+  "provisioners": [
+    {
+      "type": "shell",
+      "script": "scripts/vcenter-55-simulator-setup.sh"
+    }
+  ],
+  "builders": [
+    {
+      "type": "vmware-vmx",
+      "headless": true,
+      "source_path": "output/vcsa-55.vmx",
+      "shutdown_command": "/sbin/shutdown -h now",
+      "ssh_username": "root",
+      "ssh_password": "vmware",
+      "vm_name": "vcenter-55-simulator",
+      "vmx_data": {
+        "numvcpus": "4",
+        "memsize": "4096",
+        "ethernet0.connectionType": "nat"
+      }
+    }
+  ],
+  "post-processors": [
+    {
+        "type": "vagrant",
+        "output": "output/vcenter-55-simulator.box"
+    }
+  ]
+}
