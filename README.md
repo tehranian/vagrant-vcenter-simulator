@@ -37,3 +37,10 @@ Build 'vmware-vmx' finished.
 ==> Builds finished. The artifacts of successful builds are:
 --> vmware-vmx: 'vmware' provider box: output/vcenter-55-simulator.box
 ```
+
+Screen Shots
+============
+
+![vSphere Web Client Dashboard](https://github.com/tehranian/vagrant-vcenter-simulator/raw/master/screenshots/dashboard.png)
+
+![Showing off VM metrics](https://github.com/tehranian/vagrant-vcenter-simulator/raw/master/screenshots/metrics.png)
