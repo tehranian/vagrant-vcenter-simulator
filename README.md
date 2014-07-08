@@ -41,6 +41,8 @@ Build 'vmware-vmx' finished.
 Screen Shots
 ============
 
+All of the entities & performance metrics below are generated automatically by the simulator:
+
 ![vSphere Web Client Dashboard](https://github.com/tehranian/vagrant-vcenter-simulator/raw/master/screenshots/dashboard.png)
 
 ![Showing off VM metrics](https://github.com/tehranian/vagrant-vcenter-simulator/raw/master/screenshots/metrics.png)
