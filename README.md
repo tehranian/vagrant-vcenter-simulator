@@ -10,6 +10,7 @@ Requirements
 
 * [ovftool](https://my.vmware.com/web/vmware/details?productId=352&downloadGroup=OVFTOOL350)
 * [packer](http://www.packer.io)
+* An OVA of VMware vCenter Server Appliance. Contact your VMware reseller for details :)
 
 Example
 =======
