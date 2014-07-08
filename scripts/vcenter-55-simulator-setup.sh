@@ -56,7 +56,6 @@ echo only-once > /etc/vmware-vpx/ssl/allow_regeneration
 
 
 # Setup vCenter Simulator config files.
-# @see: http://eng-wiki.vi.local/display/ENG/VMware%27s+VCSIM+simulator
 
 cat > /etc/vmware-vpx/vcsim/model/vcsim-vagrant.cfg <<EOF
   <simulator>
